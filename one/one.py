@@ -30,7 +30,7 @@ conn = redis.Redis(host='localhost', port=6379, db=2, charset="utf-8", decode_re
 TRIGGER = ['цена', 'привет', 'кто', 'курс', 'сайт', 'продам', 'канал', 'эфир', 'дождь', 'на', 'ак', 'се', 'ла', 'а']
 hash_object = []
 string_session = '' # тут должен быть ключ стринг сессии, если вы используете ее
-id = 274343845 # ваше id, куда бот будет скидывать вам ссылки на найденные сообщения
+id = 27.....45 # ваше id, куда бот будет скидывать вам ссылки на найденные сообщения
 #client = TelegramClient(StringSession(string_session), 2496 , "8da85b0d5bfe62527e5b244c209159c3", flood_sleep_threshold = 0) #способ авторизации с помощью ключа типа строка
 # client = TelegramClient('my_account_session', 2496 , "8da85b0d5bfe62527e5b244c209159c3", flood_sleep_threshold = 0) #способ авторизации с помощью файлы сессии
 client = TelegramClient(phone, api_id, api_hash, flood_sleep_threshold = 0)
